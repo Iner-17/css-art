@@ -1,0 +1,254 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    background-color: yellow;
+}
+
+.eye-lashes-1, .eye-lashes-2, .eye-lashes-3 {
+    position: absolute; 
+    height: 20px;
+    width: 3px;
+    border: 3px solid black;
+    background-color: black;
+}
+
+.eye-lashes-1 {
+    top: 38px;
+    left: 100px;
+    transform: rotate(-15deg);
+}
+.eye-lashes-2 {
+    top: 35px;
+    left: 120px;
+    transform: rotate(0deg);
+}
+.eye-lashes-3 {
+    top: 35px;
+    left: 140px;
+    transform: rotate(10deg);
+}
+
+.lashes-2 {
+    position: absolute;
+    left: 140px;
+}
+
+.eye-1, .eye-2 {
+    position: absolute; 
+    height: 140px;
+    width: 140px;
+    border: 3px solid black;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.eye-1 {
+    top: 50px;
+    left: 60px;
+}
+.eye-2 {
+    top: 50px;
+    left: 190px;
+}
+
+.pupil-1, .pupil-2 {
+    position: absolute; 
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: rgb(82, 119, 240);
+}
+
+.pupil-1 {
+    top: 50px;
+    left: 60px;
+}
+
+.pupil-2 {
+    top: 50px;
+    left: 20px;
+}
+
+.black-pupil-1, .black-pupil-2 {
+    position: absolute; 
+    height: 25px;
+    width: 25px;
+    border: 5px solid black;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+}
+
+.black-pupil-1 {
+    top: 11px;
+    left: 11px;
+}
+.black-pupil-2 {
+    top: 11px;
+    left: 11px;
+}
+
+.nose {
+    position: absolute;
+    top: 60px;
+    left: -15px;
+    height: 90px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: yellow;
+    border: 3px solid black;
+    border-bottom-color: transparent;
+}
+
+.smile {
+    position: absolute;
+    top: 30px;
+    left: -150px;
+    width: 300px;
+    height: 190px;
+    border-radius: 50%;
+    border: 4px solid black;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.smile-dimple-1, .smile-dimple-2 {
+    position: absolute; 
+    height: 25px;
+    width: 40px;
+    border: 3px solid black;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.smile-dimple-1 {
+    transform: rotate(130deg);
+    top: 178px;
+    left: -127px;
+}
+.smile-dimple-2 {
+    transform: rotate(-130deg);
+    top: 178px;
+    left: 87px;
+}
+
+.red-dimple-1, .red-dimple-2 {
+    position: absolute; 
+    height: 40px;
+    width: 60px;
+    border: 3px solid rgb(253, 87, 21);
+    border-radius: 50%;
+    border-top-color: transparent;
+}
+
+.red-dimple-1 {
+    transform: rotate(130deg);
+    top: 155px;
+    left: -157px;
+}
+
+.red-dimple-2 {
+    transform: rotate(-130deg);
+    top: 155px;
+    left: 100px;
+}
+
+.dot-1, .dot-2, .dot-3 {
+    position: absolute; 
+    height: 5px;
+    width: 5px;
+    background-color: rgb(253, 87, 21);
+    border-radius: 50%;
+    border-top-color: transparent;
+}
+
+.dot-1 {
+    top: 15px;
+    left: 40px;
+}
+.dot-2 {
+    top: 15px;
+    left: 10px;
+}
+.dot-3 {
+    top: 10px;
+    left: 25px;
+}
+
+.teeth-1, .teeth-2 {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.teeth-1 {
+    top: 270px;
+    left: 160px;
+    transform: rotate(5deg);
+}
+.teeth-2 {
+    top: 270px;
+    left: 200px;
+    transform: rotate(-5deg);
+}
+
+.sponge {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 0.7;
+    background-color: rgb(228, 170, 10);
+}
+
+.sponge-1 {
+    top: 40px;
+    left: 8px;
+    height: 60px;
+    width: 60px;
+}
+.sponge-2 {
+    top: 180px;
+    left: 8px;
+    height: 20px;
+    width: 20px;
+}
+.sponge-3 {
+    top: 250px;
+    left: 8px;
+    height: 40px;
+    width: 40px;
+}
+.sponge-4 {
+    top: 310px;
+    left: 198px;
+    height: 60px;
+    width: 60px;
+}
+.sponge-5 {
+    top: 50px;
+    left: 328px;
+    height: 60px;
+    width: 60px;
+}
