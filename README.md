@@ -1,2 +1,2 @@
-# hinata-shoyo
-i am going to draw hinata shoyo from haikyuu using just css and html
+# CSS ART
+i am going to draw something using just css and html
